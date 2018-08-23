@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('comment', 'CommentController@index')->name('comment');
+
+Route::resource('video','VideoController');
